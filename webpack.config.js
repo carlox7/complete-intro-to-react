@@ -4,9 +4,9 @@ const webpack = require('webpack');
 const config = {
   context: __dirname,
   entry: [
-    'react-hot-loader/patch',
-    'webpack-dev-server/client?http://locahost:8080',
-    'webpack/hot/only-dev-server',
+    // 'react-hot-loader/patch',
+    // 'webpack-dev-server/client?http://locahost:8080',
+    // 'webpack/hot/only-dev-server',
     './js/ClientApp.jsx'
   ],
   devtool: process.env.NODE_ENV === 'development'
